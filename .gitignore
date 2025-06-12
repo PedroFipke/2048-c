@@ -1,0 +1,26 @@
+# Toda a pasta de build do CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Arquivos individuais gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Sistema Ninja (que você está usando)
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Pasta Testing
+Testing/
+
+# CLion/IntelliJ
+.idea/
+cmake-build-relwithdebinfo/
+cmake-build-minsizerel/
+
+# Pasta _deps (dependências baixadas pelo CMake)
+_deps/
