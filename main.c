@@ -358,11 +358,7 @@ void desenhaQuadrado(Rectangle recTabuleiro, Vector2 pos, int valor){
 
 
 int main(void){
-
-
     srand(time(NULL));
-
-
 
     limpaTabuleiro(tabuleiro);
     geraPeca(tabuleiro);
